@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Boogaloo';
+  src: url('../fonts/boogaloo-regular-webfont.woff2') format('woff2'),
+       url('../fonts/boogaloo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Snippet';
+  src: url('../fonts/snippet-webfont.woff2') format('woff2'),
+       url('../fonts/snippet-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+h1 {
+  font-family: Boogaloo;
+  font-size: 3em;
+  color: #E1F6B9;
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: Snippet;
+  font-size: 1em;
+  margin-top: 0;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+
+h3 {
+  font-family: Boogaloo;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: .2em;
+}
+
+h4 {
+  font-family: Boogaloo;
+  text-align: center;
+  font-size: 1em;
+}
+
+p {
+  font-family: Snippet;
+  font-size: .8em;
+  text-align: center;
+  line-height: .9em;
+  padding-left: .3em;
+  padding-right: .3em;
+  padding-bottom: .5em;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+
+
+.dill {
+  background: #D7F1AE;
+}
+
+.sweet {
+  background: #CAE1A3;
+}
+
+.bread-butter {
+  background: #B2D37B;
+}
+
+.half-sour {
+  background: #A9D598;
+}
+
+a {
+  font-family: Snippet;
+  font-size: .8em;
+  text-decoration: none;
+  color: #5D8E57;
+  text-align: center;
+  font-weight: bold;
+}
+
+.recipe {
+  padding-top: 1em;
+  padding-bottom: 6em;
+}
+
+.dill-resize {
+  width: 250px;
+  height: auto;
+}
+
+.sweet-resize {
+  width: 280px;
+  height: auto;
+}
+
+.bread-resize {
+  width: 150px;
+  height: auto;
+}
+
+.half-resize {
+  width: 230px;
+  height: auto;
+}
+
+p.recipe a:hover {
+  background: #98D352;
+}
+
+img.sweet-resize {
+  padding-bottom: 0;
+}
+
+.jar {
+  width: 180px;
+  height: auto;
+}
+
+footer {
+  padding-top: .5em;
+  padding-bottom: 2em;
+}
