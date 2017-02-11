@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Boogaloo';
   src: url('../fonts/boogaloo-regular-webfont.woff2') format('woff2'),
@@ -13,6 +14,151 @@
        url('../fonts/snippet-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+
+}
+
+@media (min-width: 15em){
+
+  section {
+    font-size: 100%;
+  }
+
+  aside {
+    font-size: 100%
+  }
+
+  header {
+    font-size: 100%;
+  }
+
+  footer {
+    font-size: 95%;
+  }
+
+  .dill-resize {
+    width: 250px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 280px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 150px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 230px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 170px;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 30em){
+
+  section {
+    font-size: 110%;
+  }
+
+  aside {
+    font-size: 110%;
+  }
+
+  header {
+    font-size: 110%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 305px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 355px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 185px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 285px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 225px;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 45em){
+
+  section {
+    font-size: 115%;
+  }
+
+  section.dill {
+    padding-left: 2.960em;
+    padding-right: 2.960em;
+  }
+
+  aside.sweet {
+    padding-left: 1em;
+
+  }
+
+  aside {
+    font-size: 115%;
+  }
+
+  header {
+    font-size: 115%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 365px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 405px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 225px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 345px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 285px;
+    height: auto;
+  }
 
 }
 
@@ -92,6 +238,10 @@ img {
   background: #A9D598;
 }
 
+.jalapeno {
+  background: #B3CD85;
+}
+
 a {
   font-family: Snippet;
   font-size: 1em;
@@ -106,25 +256,6 @@ a {
   padding-bottom: 6em;
 }
 
-.dill-resize {
-  width: 250px;
-  height: auto;
-}
-
-.sweet-resize {
-  width: 280px;
-  height: auto;
-}
-
-.bread-resize {
-  width: 150px;
-  height: auto;
-}
-
-.half-resize {
-  width: 230px;
-  height: auto;
-}
 
 p.recipe a:hover {
   background: #98D352;
