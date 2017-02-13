@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Boogaloo';
   src: url('../fonts/boogaloo-regular-webfont.woff2') format('woff2'),
@@ -60,6 +59,11 @@
     height: auto;
   }
 
+  .banana-pepper-resize {
+    width: 150px;
+    height: auto;
+  }
+
 }
 
 @media (min-width: 30em){
@@ -102,6 +106,11 @@
 
   .jalapeno-resize {
     width: 225px;
+    height: auto;
+  }
+
+  .banana-pepper-resize {
+    width: 200px;
     height: auto;
   }
 
@@ -160,7 +169,420 @@
     height: auto;
   }
 
+  .banana-pepper-resize {
+    width: 240px;
+    height: auto;
+  }
+
 }
+
+@media (min-width: 55em){
+
+  section {
+    font-size: 115%;
+
+  }
+
+  section.dill {
+    padding-left: 2.960em;
+    padding-right: 2.960em;
+    float: left;
+    width: 47%;
+    padding: 2% 2% 2.4em;
+  }
+
+  section.bread-butter {
+    float: left;
+    width: 47.1%;
+    padding: 2% 2% .31em;
+    clear: left;
+  }
+
+  section.jalapeno {
+    float: left;
+    width: 47.2%;
+    padding: 2% 2% 1.9em;
+  }
+
+  aside.sweet {
+    padding-left: 1em;
+
+  }
+
+  aside {
+    font-size: 115%;
+    !float: right;
+  }
+
+  header {
+    font-size: 115%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 365px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 405px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 225px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 345px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 280px;
+    height: auto;
+  }
+
+  .banana-pepper-resize {
+    width: 220px;
+    height: auto;
+  }
+
+  footer{
+    clear: both;
+  }
+}
+
+
+@media (min-width: 58em){
+
+  section {
+    font-size: 115%;
+
+  }
+
+  section.dill {
+    padding-left: 2.960em;
+    padding-right: 2.960em;
+    float: left;
+    width: 47%;
+    padding: 2% 2% 2.4em;
+  }
+
+  section.bread-butter {
+    float: left;
+    width: 47.1%;
+    padding: 2% 2% .31em;
+    clear: left;
+  }
+
+  section.jalapeno {
+    float: left;
+    width: 47.2%;
+    padding: 2% 2% 1.9em;
+  }
+
+  aside.sweet {
+    padding-left: 1em;
+
+  }
+
+  aside {
+    font-size: 115%;
+    !float: right;
+  }
+
+  header {
+    font-size: 115%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 365px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 405px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 225px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 345px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 280px;
+    height: auto;
+  }
+
+  .banana-pepper-resize {
+    width: 220px;
+    height: auto;
+  }
+
+  footer{
+    clear: both;
+  }
+}
+
+@media (min-width: 65em){
+
+  section {
+    font-size: 115%;
+
+  }
+
+  section.dill {
+    padding-left: 2.960em;
+    padding-right: 2.960em;
+    float: left;
+    width: 47%;
+    padding: 2% 2% 2.3em;
+  }
+
+  section.bread-butter {
+    float: left;
+    width: 47.1%;
+    padding: 2% 2% .3em;
+    clear: left;
+  }
+
+  section.jalapeno {
+    float: left;
+    width: 47.2%;
+    padding: 2.5% 2% 1.5em;
+  }
+
+  aside.sweet {
+    padding-left: 1em;
+
+  }
+
+  aside {
+    font-size: 115%;
+    !float: right;
+  }
+
+  header {
+    font-size: 115%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 365px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 405px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 225px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 345px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 285px;
+    height: auto;
+  }
+
+  .banana-pepper-resize{
+    width: 220px;
+    height: auto;
+  }
+
+  footer{
+    clear: both;
+  }
+}
+
+@media (min-width: 70em){
+
+  section {
+    font-size: 115%;
+
+  }
+
+  section.dill {
+    padding-left: 2.960em;
+    padding-right: 2.960em;
+    float: left;
+    width: 47%;
+    padding: 2% 2% 2.3em;
+  }
+
+  section.bread-butter {
+    float: left;
+    width: 47.1%;
+    padding: 2% 2% .3em;
+    clear: left;
+  }
+
+  section.jalapeno {
+    float: left;
+    width: 47.2%;
+    padding: 1.6% 2% .5em;
+  }
+
+  aside.sweet {
+    padding-left: 1em;
+
+  }
+
+  aside {
+    font-size: 115%;
+    !float: right;
+  }
+
+  header {
+    font-size: 115%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 365px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 405px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 225px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 345px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 285px;
+    height: auto;
+  }
+
+  .banana-pepper-resize{
+    width: 220px;
+    height: auto;
+  }
+
+  footer{
+    clear: both;
+  }
+}
+
+
+@media (min-width: 75em){
+
+  section {
+    font-size: 115%;
+
+  }
+
+  section.dill {
+    padding-left: 2.960em;
+    padding-right: 2.960em;
+    float: left;
+    width: 47%;
+    padding: 2% 2% 2.1em;
+  }
+
+  section.bread-butter {
+    float: left;
+    width: 47.1%;
+    padding: 2% 2% .01em;
+    clear: left;
+  }
+
+  section.jalapeno {
+    float: left;
+    width: 47.2%;
+    padding: 2.5% 2% 0;
+  }
+
+  aside.sweet {
+    padding-left: 1em;
+
+  }
+
+  aside {
+    font-size: 115%;
+    !float: right;
+  }
+
+  header {
+    font-size: 115%;
+  }
+
+  footer {
+    font-size: 110%;
+  }
+
+  .dill-resize {
+    width: 365px;
+    height: auto;
+  }
+
+  .sweet-resize {
+    width: 405px;
+    height: auto;
+  }
+
+  .bread-resize {
+    width: 225px;
+    height: auto;
+  }
+
+  .half-resize {
+    width: 345px;
+    height: auto;
+  }
+
+  .jalapeno-resize {
+    width: 285px;
+    height: auto;
+  }
+
+  .banana-pepper-resize {
+    width: 220px;
+    height: auto;
+  }
+
+  footer{
+    clear: both;
+  }
+}
+
 
 body {
   margin: auto;
@@ -240,6 +662,10 @@ img {
 
 .jalapeno {
   background: #B3CD85;
+}
+
+.banana-pepper {
+  background: #D8E97F;
 }
 
 a {
