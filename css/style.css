@@ -116,24 +116,50 @@
 
 }
 
-@media (min-width: 45em){
 
-  section {
-    font-size: 115%;
+
+@media (min-width: 48em){
+
+  body {
+    font-size: 120%;
   }
 
-  section.dill {
-    padding-left: 2.960em;
-    padding-right: 2.960em;
+  .row-col li {
+    float: left;
+    width: 50%;
   }
 
-  aside.sweet {
-    padding-left: 1em;
+  li.dill {
+    padding-bottom: 9em;
+    margin-bottom: -9em;
+  }
+
+  li.bread-butter {
+    padding-bottom: 9em;
+    margin-bottom: -9em;
+  }
+
+  li.jalapeno {
+    padding-bottom: 9em;
+    margin-bottom: -9em;
+  }
+
+  li.sweet {
+    padding-bottom: 9em;
+    margin-bottom: -9em;
 
   }
 
-  aside {
-    font-size: 115%;
+  li.half-sour {
+    padding-bottom: 9em;
+    margin-bottom: -9em;
+
+  }
+
+  li.banana-pepper {
+    padding-bottom: 9em;
+    margin-bottom: -9em;
+
   }
 
   header {
@@ -145,13 +171,30 @@
   }
 
   .dill-resize {
-    width: 365px;
+    width: 410px;
     height: auto;
+  }
+
+  .sweet h3 {
+    margin-top: .4em;
+  }
+
+  .half-sour h3 {
+    margin-top: -.1em;
+  }
+
+  .banana-pepper h3 {
+    margin-top: .3em;
+  }
+
+  .banana-pepper .recipe {
+    margin-top: .9em;
   }
 
   .sweet-resize {
     width: 405px;
     height: auto;
+    margin-top: -1em;
   }
 
   .bread-resize {
@@ -162,84 +205,7 @@
   .half-resize {
     width: 345px;
     height: auto;
-  }
-
-  .jalapeno-resize {
-    width: 285px;
-    height: auto;
-  }
-
-  .banana-pepper-resize {
-    width: 240px;
-    height: auto;
-  }
-
-}
-
-@media (min-width: 55em){
-
-  section {
-    font-size: 115%;
-
-  }
-
-  section.dill {
-    padding-left: 2.960em;
-    padding-right: 2.960em;
-    float: left;
-    width: 47%;
-    padding: 2% 2% 2.4em;
-  }
-
-  section.bread-butter {
-    float: left;
-    width: 47.1%;
-    padding: 2% 2% .31em;
-    clear: left;
-  }
-
-  section.jalapeno {
-    float: left;
-    width: 47.2%;
-    padding: 2% 2% 1.9em;
-  }
-
-  aside.sweet {
-    padding-left: 1em;
-
-  }
-
-  aside {
-    font-size: 115%;
-    !float: right;
-  }
-
-  header {
-    font-size: 115%;
-  }
-
-  footer {
-    font-size: 110%;
-  }
-
-  .dill-resize {
-    width: 365px;
-    height: auto;
-  }
-
-  .sweet-resize {
-    width: 405px;
-    height: auto;
-  }
-
-  .bread-resize {
-    width: 225px;
-    height: auto;
-  }
-
-  .half-resize {
-    width: 345px;
-    height: auto;
+    margin-top: -1em;
   }
 
   .jalapeno-resize {
@@ -250,6 +216,7 @@
   .banana-pepper-resize {
     width: 220px;
     height: auto;
+    margin-top: -2.5em;
   }
 
   footer{
@@ -257,331 +224,6 @@
   }
 }
 
-
-@media (min-width: 58em){
-
-  section {
-    font-size: 115%;
-
-  }
-
-  section.dill {
-    padding-left: 2.960em;
-    padding-right: 2.960em;
-    float: left;
-    width: 47%;
-    padding: 2% 2% 2.4em;
-  }
-
-  section.bread-butter {
-    float: left;
-    width: 47.1%;
-    padding: 2% 2% .31em;
-    clear: left;
-  }
-
-  section.jalapeno {
-    float: left;
-    width: 47.2%;
-    padding: 2% 2% 1.9em;
-  }
-
-  aside.sweet {
-    padding-left: 1em;
-
-  }
-
-  aside {
-    font-size: 115%;
-    !float: right;
-  }
-
-  header {
-    font-size: 115%;
-  }
-
-  footer {
-    font-size: 110%;
-  }
-
-  .dill-resize {
-    width: 365px;
-    height: auto;
-  }
-
-  .sweet-resize {
-    width: 405px;
-    height: auto;
-  }
-
-  .bread-resize {
-    width: 225px;
-    height: auto;
-  }
-
-  .half-resize {
-    width: 345px;
-    height: auto;
-  }
-
-  .jalapeno-resize {
-    width: 280px;
-    height: auto;
-  }
-
-  .banana-pepper-resize {
-    width: 220px;
-    height: auto;
-  }
-
-  footer{
-    clear: both;
-  }
-}
-
-@media (min-width: 65em){
-
-  section {
-    font-size: 115%;
-
-  }
-
-  section.dill {
-    padding-left: 2.960em;
-    padding-right: 2.960em;
-    float: left;
-    width: 47%;
-    padding: 2% 2% 2.3em;
-  }
-
-  section.bread-butter {
-    float: left;
-    width: 47.1%;
-    padding: 2% 2% .3em;
-    clear: left;
-  }
-
-  section.jalapeno {
-    float: left;
-    width: 47.2%;
-    padding: 2.5% 2% 1.5em;
-  }
-
-  aside.sweet {
-    padding-left: 1em;
-
-  }
-
-  aside {
-    font-size: 115%;
-    !float: right;
-  }
-
-  header {
-    font-size: 115%;
-  }
-
-  footer {
-    font-size: 110%;
-  }
-
-  .dill-resize {
-    width: 365px;
-    height: auto;
-  }
-
-  .sweet-resize {
-    width: 405px;
-    height: auto;
-  }
-
-  .bread-resize {
-    width: 225px;
-    height: auto;
-  }
-
-  .half-resize {
-    width: 345px;
-    height: auto;
-  }
-
-  .jalapeno-resize {
-    width: 285px;
-    height: auto;
-  }
-
-  .banana-pepper-resize{
-    width: 220px;
-    height: auto;
-  }
-
-  footer{
-    clear: both;
-  }
-}
-
-@media (min-width: 70em){
-
-  section {
-    font-size: 115%;
-
-  }
-
-  section.dill {
-    padding-left: 2.960em;
-    padding-right: 2.960em;
-    float: left;
-    width: 47%;
-    padding: 2% 2% 2.3em;
-  }
-
-  section.bread-butter {
-    float: left;
-    width: 47.1%;
-    padding: 2% 2% .3em;
-    clear: left;
-  }
-
-  section.jalapeno {
-    float: left;
-    width: 47.2%;
-    padding: 1.6% 2% .5em;
-  }
-
-  aside.sweet {
-    padding-left: 1em;
-
-  }
-
-  aside {
-    font-size: 115%;
-    !float: right;
-  }
-
-  header {
-    font-size: 115%;
-  }
-
-  footer {
-    font-size: 110%;
-  }
-
-  .dill-resize {
-    width: 365px;
-    height: auto;
-  }
-
-  .sweet-resize {
-    width: 405px;
-    height: auto;
-  }
-
-  .bread-resize {
-    width: 225px;
-    height: auto;
-  }
-
-  .half-resize {
-    width: 345px;
-    height: auto;
-  }
-
-  .jalapeno-resize {
-    width: 285px;
-    height: auto;
-  }
-
-  .banana-pepper-resize{
-    width: 220px;
-    height: auto;
-  }
-
-  footer{
-    clear: both;
-  }
-}
-
-
-@media (min-width: 75em){
-
-  section {
-    font-size: 115%;
-
-  }
-
-  section.dill {
-    padding-left: 2.960em;
-    padding-right: 2.960em;
-    float: left;
-    width: 47%;
-    padding: 2% 2% 2.1em;
-  }
-
-  section.bread-butter {
-    float: left;
-    width: 47.1%;
-    padding: 2% 2% .01em;
-    clear: left;
-  }
-
-  section.jalapeno {
-    float: left;
-    width: 47.2%;
-    padding: 2.5% 2% 0;
-  }
-
-  aside.sweet {
-    padding-left: 1em;
-
-  }
-
-  aside {
-    font-size: 115%;
-    !float: right;
-  }
-
-  header {
-    font-size: 115%;
-  }
-
-  footer {
-    font-size: 110%;
-  }
-
-  .dill-resize {
-    width: 365px;
-    height: auto;
-  }
-
-  .sweet-resize {
-    width: 405px;
-    height: auto;
-  }
-
-  .bread-resize {
-    width: 225px;
-    height: auto;
-  }
-
-  .half-resize {
-    width: 345px;
-    height: auto;
-  }
-
-  .jalapeno-resize {
-    width: 285px;
-    height: auto;
-  }
-
-  .banana-pepper-resize {
-    width: 220px;
-    height: auto;
-  }
-
-  footer{
-    clear: both;
-  }
-}
 
 
 body {
@@ -643,6 +285,13 @@ img {
   padding-bottom: 2em;
 }
 
+.row-col {
+  list-style: none;
+  padding-left: 0;
+  !border: 1px solid #000;
+  overflow: hidden;
+  margin: auto;
+}
 
 .dill {
   background: #D7F1AE;
@@ -696,3 +345,4 @@ footer {
   padding-top: .5em;
   padding-bottom: 2em;
 }
+
