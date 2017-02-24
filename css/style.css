@@ -344,3 +344,9 @@ footer {
   padding-top: .5em;
   padding-bottom: 2em;
 }
+
+.dill-footer {
+  width: 75px;
+  height: auto;
+  margin-bottom: -2em;
+}
